@@ -1,0 +1,29 @@
+{
+    "name": "seu-usuario/bash-executor",
+    "description": "Uma biblioteca PHP para executar comandos no Bash de forma segura.",
+    "keywords": [
+        "bash",
+        "executor",
+        "shell",
+        "cli"
+    ],
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Guilherme Olinto",
+            "email": "olintoguilherme@example.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "BashExecutor\\": "src/"
+        }
+    },
+    "require": {
+        "php": ">=7.4"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^12.0"
+    }
+}
